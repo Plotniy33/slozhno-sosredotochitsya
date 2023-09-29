@@ -7,11 +7,11 @@
 .page.theme_light {
   --bg-color: #fff1f7;
   --main-title-color: #ffc2e6;
-  --accent-color: #ffc2e6;
+  --accent-color: #ff8dcb;
   --title-bg-color: #ffc2e6;
   --title-color: #353430;
   --text-color: #353430;
-  --text-shadow: #ff0070;
+  --text-shadow: #ff8dcb;
   background-image: url(../images/cover-image-light.png);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -23,6 +23,10 @@
   display: none;
 }
 
+.theme_light .header__theme-menu-button:hover {
+  outline: 1px solid rgba(50, 49, 45, 0.4);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
@@ -31,8 +35,17 @@
     --title-bg-color: #ffc2e6;
     --title-color: #353430;
     --text-color: #353430;
-    --text-shadow: #ff0070;
+    --text-shadow: #ff8dcb;
     background-image: url(../images/cover-image-light.png);
+  }
+}
+
+@media (width >= 1024px) {
+  .title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+  .footer__title {
+    text-shadow: 4px 4px 0 #ff0070;
   }
 }
 
