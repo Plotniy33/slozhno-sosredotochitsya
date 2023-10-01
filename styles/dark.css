@@ -13,14 +13,16 @@
   --text-color: #f1b2ce;
   --text-shadow: #ff0070;
   --btn-color: #ff0070;
-  --btn-border-color: #ff99c6;
+  --btn-border-color: #32312d66;
   --bg-image: url(../images/cover-image-dark.png);
+  --visibility: visible;
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -32,7 +34,9 @@
     --text-color: #f1b2ce;
     --text-shadow: #ff0070;
     --btn-color: #ff0070;
-    --btn-border-color: #ff99c6;
+    --btn-border-color: #32312d66;
     --bg-image: url(../images/cover-image-dark.png);
+    --visibility: visible;
   }
 }
+

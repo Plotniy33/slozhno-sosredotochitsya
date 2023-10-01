@@ -27,6 +27,7 @@
 
 .header__decor {
   position: absolute;
+  visibility: var(--visibility);
   top: 10px;
   right: 38px;
   line-height: 1.4;

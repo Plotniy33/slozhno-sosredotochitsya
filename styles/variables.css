@@ -13,10 +13,11 @@
   --text-color: #f1b2ce;
   --text-shadow: #ff0070;
   --btn-color: #ff0070;
-  --btn-border-color: #ff99c6;
+  --btn-border-color: #32312d66;
   --main-font: "IBM Plex mono", sans-serif;
   --font-size: 1.125rem;
   --font-weight: 400;
   --line-height: 1.3;
   --header-footer-padding: 10px;
+  --visibility: visible;
 }
