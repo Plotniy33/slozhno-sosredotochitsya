@@ -12,7 +12,9 @@
   --title-color: #353430;
   --text-color: #353430;
   --text-shadow: #ff8dcb;
-  background-image: url(../images/cover-image-light.png);
+  --btn-color: #353430;
+  --btn-border-color: #adadab;
+  --bg-image: url(../images/cover-image-light.png);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -23,8 +25,12 @@
   display: none;
 }
 
+.page.theme_auto .header__decor {
+  display: none;
+}
+
 .theme_light .header__theme-menu-button:hover {
-  outline: 1px solid rgba(50, 49, 45, 0.4);
+  outline: 1px solid var(--btn-border-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,19 +42,8 @@
     --title-color: #353430;
     --text-color: #353430;
     --text-shadow: #ff8dcb;
-    background-image: url(../images/cover-image-light.png);
+    --btn-color: #353430;
+    --btn-border-color: #adadab;
+    --bg-image: url(../images/cover-image-light.png);
   }
-}
-
-@media (width >= 1024px) {
-  .title {
-    text-shadow: 4px 4px 0 #ff0070;
-  }
-  .footer__title {
-    text-shadow: 4px 4px 0 #ff0070;
-  }
-}
-
-.page.theme_auto .header__decor {
-  display: none;
 }

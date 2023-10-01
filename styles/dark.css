@@ -10,9 +10,11 @@
   --accent-color: #ff0070;
   --title-bg-color: #ff0070;
   --title-color: #000028;
-  --text-color: #ff0070;
+  --text-color: #f1b2ce;
   --text-shadow: #ff0070;
-  background-image: url(../images/cover-image-dark.png);
+  --btn-color: #ff0070;
+  --btn-border-color: #ff99c6;
+  --bg-image: url(../images/cover-image-dark.png);
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -29,6 +31,8 @@
     --title-color: #000028;
     --text-color: #f1b2ce;
     --text-shadow: #ff0070;
-    background-image: url(../images/cover-image-dark.png);
+    --btn-color: #ff0070;
+    --btn-border-color: #ff99c6;
+    --bg-image: url(../images/cover-image-dark.png);
   }
 }
