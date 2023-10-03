@@ -13,6 +13,7 @@
   --text-color: #353430;
   --text-shadow: #ff8dcb;
   --btn-color: #353430;
+  --btn-color-hover: #ff0070;
   --btn-border-color: rgba(255, 0, 112, 0.4);
   /* --btn-border-color: #ff007066; */
   --bg-image: url(../images/cover-image-light.png);
@@ -33,6 +34,7 @@
     --text-color: #353430;
     --text-shadow: #ff99c6;
     --btn-color: #353430;
+    --btn-color-hover: #ff0070;
     --btn-border-color: rgba(255, 0, 112, 0.4);
     /* --btn-border-color: #ff007066; */
     --bg-image: url(../images/cover-image-light.png);
