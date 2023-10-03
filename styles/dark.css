@@ -13,7 +13,8 @@
   --text-color: #f1b2ce;
   --text-shadow: #ff0070;
   --btn-color: #ff0070;
-  --btn-border-color: #32312d66;
+  --btn-border-color: rgba(50, 49, 45, 0.4);
+  /* --btn-border-color: #32312d66; */
   --bg-image: url(../images/cover-image-dark.png);
   --visibility: visible;
 
@@ -22,7 +23,6 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -34,9 +34,9 @@
     --text-color: #f1b2ce;
     --text-shadow: #ff0070;
     --btn-color: #ff0070;
-    --btn-border-color: #32312d66;
+    --btn-border-color: rgba(50, 49, 45, 0.4);
+    /* --btn-border-color: #32312d66; */
     --bg-image: url(../images/cover-image-dark.png);
     --visibility: visible;
   }
 }
-

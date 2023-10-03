@@ -13,7 +13,8 @@
   --text-color: #353430;
   --text-shadow: #ff8dcb;
   --btn-color: #353430;
-  --btn-border-color: #ff007066;
+  --btn-border-color: rgba(255, 0, 112, 0.4);
+  /* --btn-border-color: #ff007066; */
   --bg-image: url(../images/cover-image-light.png);
   --visibility: hidden;
   /* сохраните этот селектор в приведённом виде.
@@ -21,8 +22,6 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -34,11 +33,11 @@
     --text-color: #353430;
     --text-shadow: #ff99c6;
     --btn-color: #353430;
-    --btn-border-color: #ff007066;
+    --btn-border-color: rgba(255, 0, 112, 0.4);
+    /* --btn-border-color: #ff007066; */
     --bg-image: url(../images/cover-image-light.png);
     --visibility: hidden;
   }
 }
 
 /* Не знаю на сколько костыль или нет но вроде срослось)))))) */
-
