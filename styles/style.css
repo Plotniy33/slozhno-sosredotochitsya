@@ -82,24 +82,26 @@
   cursor: pointer;
 }
 
-.header__theme-menu-button_active {
-  outline: 1px solid currentColor;
-  pointer-events: none;
-}
-
-.header__theme-menu-button:hover {
-  color: var(--btn-color-hover);
-  outline: 1px solid var(--btn-border-color);
-}
-
 .header__theme-menu-button:focus {
   outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  color: var(--btn-color-hover);
   border-block-end: 1px solid currentColor;
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--btn-border-color);
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--btn-color);
+  pointer-events: none;
+}
+
+.header__theme-menu-button:disabled {
+  outline-color: var(--btn-color);
 }
 
 .title {
